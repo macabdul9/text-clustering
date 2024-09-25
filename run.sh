@@ -1,5 +1,5 @@
 # run a new pipeline
-python run_pipeline.py --mode run  --save_load_path './cc_100k' --n_samples 100000 --build_hf_ds
+python run_pipeline.py --mode run  --save_load_path './cc_100k' --n_samples 10000 --build_hf_ds --input_dataset HuggingFaceTB/cosmopedia-100k
 # load existing pipeline
 # python run_pipeline.py --mode load --save_load_path './cc_100k' --build_hf_ds
 # # inference mode on new texts from an input dataset
